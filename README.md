@@ -7,7 +7,7 @@ This library is a typescript rewrite of [Postal Node](https://github.com/postals
 Install the library using [NPM](https://www.npmjs.com/):
 
 ```
-$ npm install @atech/postal --save
+$ npm install postal-node-ts --save
 ```
 
 ## Usage
@@ -24,7 +24,7 @@ console.log(Client);
 console.log(SendMessage);
 console.log(SendRawMessage);
 
-const client = new Client('wiseindustries-cloud.com', 'your-api-key');
+const client = new Client('example.com', 'your-api-key');
 const message = new SendMessage(client);
 
 // Add some recipients
