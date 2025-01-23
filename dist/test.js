@@ -4,7 +4,7 @@ const index_1 = require("./index");
 console.log(index_1.Client);
 console.log(index_1.SendMessage);
 console.log(index_1.SendRawMessage);
-const client = new index_1.Client('wiseindustries-cloud.com', 'oKBhv15VC3sQbmvhdJ84LvDH');
+const client = new index_1.Client('wiseindustries-cloud.com', 'your-api-key');
 const message = new index_1.SendMessage(client);
 // Add some recipients
 message.to('cvetko@bspec.io');
