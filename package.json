@@ -1,6 +1,6 @@
 {
   "name": "postal-node-ts",
-  "version": "1.1.5",
+  "version": "1.1.6",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
   "prepublish": "tsc",
@@ -11,7 +11,8 @@
     "publish:git": "npm run build && git add . && git commit -m 'update' && git push origin main",
     "test": "npm run build && node ./dist/test.js"
   },
-  "keywords": [],
+  "repository": "https://github.com/theCele/postal-node-ts",
+  "keywords": ["Postal", "Postal Node", "postalserver.io"],
   "author": "",
   "license": "ISC",
   "description": "",
