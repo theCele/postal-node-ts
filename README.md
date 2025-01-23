@@ -24,7 +24,7 @@ console.log(Client);
 console.log(SendMessage);
 console.log(SendRawMessage);
 
-const client = new Client('wiseindustries-cloud.com', 'oKBhv15VC3sQbmvhdJ84LvDH');
+const client = new Client('wiseindustries-cloud.com', 'your-api-key');
 const message = new SendMessage(client);
 
 // Add some recipients
