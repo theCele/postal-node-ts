@@ -23,12 +23,12 @@ console.log(Client);
 console.log(SendMessage);
 console.log(SendRawMessage);
 
-const client = new Client('example.com', 'your-api-key');
+const client = new Client('test.postal.io', 'your-api-key');
 const message = new SendMessage(client);
 
 // Add some recipients
-message.to('cvetko@bspec.io');
-message.from('c.david@wiseindustries-app.com');
+message.to('john@example.com');
+message.from('test@test.postal.io');
 
 message.subject('Hi there!');
 
