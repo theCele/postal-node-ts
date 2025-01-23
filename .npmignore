@@ -1,4 +1,6 @@
 
 config.json
-./src/test.ts
-./dist/test.js
+src/test.ts
+src/test.d.ts
+src/test.js.map
+dist/test.js
