@@ -17,8 +17,7 @@ begin, you'll need to login to your installation's web interface and generate
 new API credentials.
 
 ```javascript
-import { Client, SendMessage, SendRawMessage } from './index'
-import { SendResult } from './SendResult';
+import { Client, SendMessage, SendRawMessage, SendResult } from 'postal-node-ts'
 
 console.log(Client);
 console.log(SendMessage);
